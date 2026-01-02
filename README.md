@@ -23,6 +23,14 @@ This repository is organized into the following categories:
   - Heaps
   - Hash Tables
   
+- **Number_Theory/** - Number theory algorithms
+  - Primality
+  - GCD and LCM
+  - Modular Arithmetic
+  - Factorization
+  - Combinatorics
+  - Exponentiation
+  
 - **Problem_Solving/** - Solutions to problems from various platforms
   - Codeforces
   - LeetCode
