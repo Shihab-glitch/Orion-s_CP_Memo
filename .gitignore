@@ -7,6 +7,9 @@
 *.pyc
 *.pyo
 
+# Python cache
+__pycache__/
+
 # Executables
 a.out
 a.exe
@@ -39,3 +42,6 @@ tmp/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# CodeQL
+_codeql_detected_source_root
