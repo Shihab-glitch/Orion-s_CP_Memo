@@ -49,10 +49,10 @@ Each folder contains code files with descriptive names. Problem solutions includ
 
 ## 💻 Languages Used
 
-- C++
-- Python
-- Java
-- (Add more as needed)
+- C++ (Primary)
+- Rust (Planned)
+- Java (Planned)
+- Python (Planned)
 
 ## 📌 Notes
 

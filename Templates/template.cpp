@@ -32,7 +32,7 @@ void fast_io() {
 }
 
 void solve() {
-    // Your solution here
+    
 }
 
 int main() {
