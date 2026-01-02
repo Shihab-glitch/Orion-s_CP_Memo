@@ -23,6 +23,7 @@ output.txt
 
 # IDE and Editor files
 .vscode/
+output/
 .idea/
 *.swp
 *.swo
