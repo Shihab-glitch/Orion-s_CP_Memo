@@ -1,0 +1,47 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.class
+*.pyc
+*.pyo
+
+# Python cache
+__pycache__/
+
+# Executables
+a.out
+a.exe
+
+# Input/Output files
+input.txt
+output.txt
+*.in
+*.out
+*.ans
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug files
+*.dSYM/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# CodeQL
+_codeql_detected_source_root
