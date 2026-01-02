@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+class Main {
     
     // Fast I/O
     static class FastReader {
