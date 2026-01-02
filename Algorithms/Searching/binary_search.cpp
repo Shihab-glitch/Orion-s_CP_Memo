@@ -8,6 +8,8 @@
  * Space Complexity: O(1)
  */
 
+// #include <bits/stdc++.h> // For all libraries
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -40,7 +42,7 @@ int binarySearchRecursive(vector<int>& arr, int target, int left, int right) {
         return -1;
     }
     
-    int mid = left + (right - left) / 2;
+    int mid = left + (right - left) / 2; // Overflow Handling
     
     if (arr[mid] == target) {
         return mid;
@@ -54,16 +56,18 @@ int binarySearchRecursive(vector<int>& arr, int target, int left, int right) {
 }
 
 int main() {
-    vector<int> arr = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
-    int target = 23;
     
-    int result = binarySearch(arr, target);
+    int n, target, result; cin >> n;
+
+    vector<int> arr(n);
+
+    for (int i=0; i<n; ++i) cin >> arr[i];
+
+    cin >> target;
     
-    if (result != -1) {
-        cout << "Element found at index: " << result << endl;
-    } else {
-        cout << "Element not found" << endl;
-    }
+    result = binarySearch(arr, target);
     
+    (result != -1) ? cout << "Element found at index: " << result << '\n' : cout << "Element not found" << '\n';
+
     return 0;
 }
