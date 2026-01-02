@@ -13,6 +13,8 @@ This repository is organized into the following categories:
   - Dynamic Programming
   - Greedy Algorithms
   - Divide and Conquer
+
+- **Books/** - Just books I use & intend to use
   
 - **Data_Structures/** - Implementation of various data structures
   - Arrays and Strings
